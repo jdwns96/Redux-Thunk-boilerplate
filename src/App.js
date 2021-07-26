@@ -1,14 +1,10 @@
-import React, { useEffect, useState } from "react";
-import { Redirect, Switch, Link, Route } from "react-router-dom";
-
-import { useSelector, useDispatch } from "react-redux";
-
-import axios from "axios";
+import React from "react";
+import CounterContainer from "./container/CounterContainer";
 
 const App = () => {
     return (
         <>
-            <div></div>
+            <CounterContainer />
         </>
     );
 };
