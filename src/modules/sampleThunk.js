@@ -94,7 +94,7 @@ const sample = handleActions(
                 ...state.loading,
                 GET_USERS: false, // 요청 완료
             },
-            post: action.payload,
+            users: action.payload,
         }),
         [GET_USERS_FAILURE]: (state, action) => ({
             ...state,
