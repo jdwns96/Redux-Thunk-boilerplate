@@ -4,5 +4,5 @@
     npm i @craco/craco craco-alias
     npm i node-sass
 
-    redux, redux-logger, redux-actions
+    redux, redux-logger, redux-actions, redux-thunk
 ```

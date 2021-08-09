@@ -6,9 +6,11 @@ import ReduxThunk from "redux-thunk";
 import { createLogger } from "redux-logger";
 
 import counter from "./counter.js";
+import sample from "./sampleThunk";
 
 const rootReducer = combineReducers({
     counter,
+    sample,
 });
 
 // how to set composeWithDevTools ?
